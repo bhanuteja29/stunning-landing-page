@@ -25,6 +25,8 @@ ul {
 }
 .common-btn.dark {
     background: #5243c0;
+    border-radius: 20px;
+    padding: 1px 21px;
     color: #fff;
 }
 .container {
@@ -64,7 +66,7 @@ main {
 }
 main .container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
 }
 main .content,
 main .banner {

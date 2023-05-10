@@ -18,15 +18,13 @@ ul {
     padding: 0;
     margin: 0;
 }
-.common-btn {
+.commonbtn {
     background: #ffd8db;
     border-radius: 20px;
-    padding: 3px 21px;
+    padding: 15px 21px;
 }
-.common-btn1 {
+.commonbtn.dark {
     background: #5243c0;
-    border-radius: 20px;
-    padding: 1px 21px;
     color: #fff;
 }
 .container {
@@ -54,7 +52,7 @@ header ul li a {
 }
 header ul li a:hover,
 header ul li a.active {
-    border-bottom:0px solid #5243c0;
+    border-bottom: 4px solid #5243c0;
     color: #5243c0;
 }
 /* main */
